@@ -1,16 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
-import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
-import { Typescript } from "@/components/ui/svgs/typescript";
-import { Nodejs } from "@/components/ui/svgs/nodejs";
-import { Python } from "@/components/ui/svgs/python";
-import { Golang } from "@/components/ui/svgs/golang";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
-import { Docker } from "@/components/ui/svgs/docker";
-import { Kubernetes } from "@/components/ui/svgs/kubernetes";
-import { Java } from "@/components/ui/svgs/java";
-import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "Salman Atwan Alshammari",
@@ -19,7 +9,7 @@ export const DATA = {
   location: "Riyadh, Saudi Arabia",
   locationLink: "https://www.google.com/maps/place/Riyadh",
   description:
-    "Financial Manager & Strategic Planner. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
+    "Financial Analyst | FP&A & Strategic Planning. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
   summary:
     "Strategic Finance Professional with progressive experience in Financial Planning & Analysis (FP&A) and corporate leadership. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions. Proven track record of engineering financial models and managing multimillion-dollar operating budgets to drive growth and optimize capital allocation aligned with Saudi Vision 2030.",
   avatarUrl: "/me.png",
@@ -78,9 +68,9 @@ export const DATA = {
       href: "#",
       badges: ["Current"],
       location: "Hafar Al-Batin, Saudi Arabia",
-      title: "Financial Manager",
-      logoUrl: "",
-      start: "April 2026",
+      title: "Financial Analyst | Operations & Financial Management",
+      logoUrl: "/me.png",
+      start: "Feb 2026",
       end: "Present",
       description:
         "Leading comprehensive financial operations and strategic planning. Developing robust financial policies and internal control frameworks to mitigate corporate risks. Managing the annual budgeting process and delivering advanced variance analysis to support executive-level decisions. Optimizing corporate liquidity and cash flow forecasting.",
@@ -88,24 +78,12 @@ export const DATA = {
     {
       company: "Al Omran Solutions for Building Materials",
       href: "#",
-      badges: [],
-      location: "Hafar Al-Batin, Saudi Arabia",
-      title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "",
-      start: "Feb 2026",
-      end: "Apr 2026",
-      description:
-        "Assisted in comprehensive financial operations. Developed robust financial policies and internal control frameworks to mitigate corporate risks. Optimized corporate liquidity and cash flow forecasting.",
-    },
-    {
-      company: "Al Omran Solutions for Building Materials",
-      href: "#",
       badges: ["Pre-Graduation"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Retail Sales Associate - Financial Operations",
-      logoUrl: "",
+      logoUrl: "/me.png",
       start: "Jul 2022",
-      end: "Dec 2025",
+      end: "Dec 2023",
       description:
         "Streamlined high-volume POS operations for 200+ daily transactions, ensuring 100% reconciliation accuracy. Optimized inventory management for 500+ SKUs using Onyx ERP, achieving a 30% reduction in stock discrepancies. Synchronized month-end closing processes.",
     },
@@ -115,7 +93,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "",
+      logoUrl: "/me.png",
       start: "Jan 2020",
       end: "Apr 2026",
     },
@@ -129,7 +107,13 @@ export const DATA = {
       description:
         "Conducted quantitative research on ESG practices for 50+ Saudi companies using GRI/SASB frameworks and regression models. Built financial models to measure ROI of sustainability investments and developed a Power BI dashboard.",
       technologies: ["Power BI", "Financial Modeling", "Regression Analysis"],
-      links: [],
+      links: [
+        {
+          type: "Dashboard",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
       image: "",
       video: "",
     },
@@ -141,22 +125,32 @@ export const DATA = {
       description:
         "Developed a Power BI dashboard using Power Query and DAX for real-time tracking across 10+ branches. Identified underperforming units through variance analysis, resulting in an 18% uplift in sales performance.",
       technologies: ["Power BI", "DAX", "Variance Analysis"],
-      links: [],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Integrated Financial Planning System",
-      href: "#",
-      dates: "2025",
-      active: true,
-      description:
-        "Designed an Excel-based system for Sales, Capital, and Operating budgets capable of processing multi-scenario analyses, reducing reporting time by 60%. Automated KPI tracking using VBA macros.",
-      technologies: ["Advanced Excel", "VBA & Macros", "FP&A"],
-      links: [],
+      links: [
+        {
+          type: "Dashboard",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
       image: "",
       video: "",
     },
   ],
-  hackathons: [],
+  hackathons: [
+    {
+      title: "Integrated Financial Planning System",
+      dates: "2025",
+      location: "Hafar Al-Batin",
+      description:
+        "Designed an Excel-based system for Sales, Capital, and Operating budgets capable of processing multi-scenario analyses, reducing reporting time by 60%.",
+      image: "",
+      links: [
+        {
+          title: "System",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "#",
+        }
+      ],
+    },
+  ],
 } as const;
