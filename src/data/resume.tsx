@@ -1,25 +1,36 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ReactLight } from "@/components/ui/svgs/reactLight";
+import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
+import { Typescript } from "@/components/ui/svgs/typescript";
+import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { Python } from "@/components/ui/svgs/python";
+import { Golang } from "@/components/ui/svgs/golang";
+import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Docker } from "@/components/ui/svgs/docker";
+import { Kubernetes } from "@/components/ui/svgs/kubernetes";
+import { Java } from "@/components/ui/svgs/java";
+import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "Salman Atwan Alshammari",
   initials: "SA",
   url: "https://salman-finance.vercel.app",
   location: "Riyadh, Saudi Arabia",
-  locationLink: "https://maps.app.goo.gl/Riyadh",
+  locationLink: "https://www.google.com/maps/place/Riyadh",
   description:
-    "Financial Analyst | FP&A & Strategic Planning. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
+    "Financial Manager & Strategic Planner. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
   summary:
-    "Strategic Finance Professional with progressive experience in Financial Planning & Analysis (FP&A) and corporate leadership. Expert in leveraging Power BI. SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions. Proven track record of engineering financial models and managing multimillion-dollar operating budgets to drive growth and optimize capital allocation aligned with Saudi Vision 2030.",
+    "Strategic Finance Professional with progressive experience in Financial Planning & Analysis (FP&A) and corporate leadership. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions. Proven track record of engineering financial models and managing multimillion-dollar operating budgets to drive growth and optimize capital allocation aligned with Saudi Vision 2030.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "Financial Modeling", icon: Icons.go },
-    { name: "FP&A & Budgeting", icon: Icons.email },
-    { name: "Power BI & DAX", icon: Icons.x },
-    { name: "SQL & Data Modeling", icon: Icons.github },
-    { name: "Advanced Excel (VBA)", icon: Icons.linkedin },
-    { name: "ERP (Onyx & SAP)", icon: Icons.youtube },
-    { name: "Strategic Planning", icon: Icons.email },
+    { name: "Financial Modeling", icon: NotebookIcon },
+    { name: "FP&A & Budgeting", icon: NotebookIcon },
+    { name: "Power BI & DAX", icon: NotebookIcon },
+    { name: "SQL & Data Modeling", icon: Postgresql },
+    { name: "Advanced Excel (VBA)", icon: NotebookIcon },
+    { name: "ERP (Onyx & SAP)", icon: HomeIcon },
+    { name: "Strategic Planning", icon: NotebookIcon },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -28,11 +39,29 @@ export const DATA = {
     email: "SalmanAlshammari@outlook.sa",
     tel: "+966545002806",
     social: {
+      GitHub: {
+        name: "GitHub",
+        url: "#",
+        icon: Icons.github,
+        navbar: false,
+      },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/salman-alshammari-362a45305",
         icon: Icons.linkedin,
         navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "#",
+        icon: Icons.x,
+        navbar: false,
+      },
+      Youtube: {
+        name: "Youtube",
+        url: "#",
+        icon: Icons.youtube,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -47,6 +76,18 @@ export const DATA = {
     {
       company: "Al Omran Solutions for Building Materials",
       href: "#",
+      badges: ["Current"],
+      location: "Hafar Al-Batin, Saudi Arabia",
+      title: "Financial Manager",
+      logoUrl: "",
+      start: "April 2026",
+      end: "Present",
+      description:
+        "Leading comprehensive financial operations and strategic planning. Developing robust financial policies and internal control frameworks to mitigate corporate risks. Managing the annual budgeting process and delivering advanced variance analysis to support executive-level decisions. Optimizing corporate liquidity and cash flow forecasting.",
+    },
+    {
+      company: "Al Omran Solutions for Building Materials",
+      href: "#",
       badges: [],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
@@ -54,7 +95,7 @@ export const DATA = {
       start: "Feb 2026",
       end: "Apr 2026",
       description:
-        "Leading comprehensive financial operations and strategic planning. Developing robust financial policies and internal control frameworks to mitigate corporate risks. Managing the annual budgeting process and delivering advanced variance analysis to support executive-level decisions. Optimizing corporate liquidity and cash flow forecasting.",
+        "Assisted in comprehensive financial operations. Developed robust financial policies and internal control frameworks to mitigate corporate risks. Optimized corporate liquidity and cash flow forecasting.",
     },
     {
       company: "Al Omran Solutions for Building Materials",
@@ -64,9 +105,9 @@ export const DATA = {
       title: "Retail Sales Associate - Financial Operations",
       logoUrl: "",
       start: "Jul 2022",
-      end: "Dec 2023",
+      end: "Dec 2025",
       description:
-        "Streamlined high-volume POS operations for 200+ daily transactions, ensuring 100% reconciliation accuracy. Optimized inventory management for 500+ SKUs using Onyx ERP, achieving a 30% reduction in stock discrepancies. Synchronized month-end closing processes, including comprehensive account reconciliations.",
+        "Streamlined high-volume POS operations for 200+ daily transactions, ensuring 100% reconciliation accuracy. Optimized inventory management for 500+ SKUs using Onyx ERP, achieving a 30% reduction in stock discrepancies. Synchronized month-end closing processes.",
     },
   ],
   education: [
@@ -119,4 +160,3 @@ export const DATA = {
   ],
   hackathons: [],
 } as const;
-
