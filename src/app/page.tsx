@@ -20,12 +20,13 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="gap-2 flex flex-col order-2 md:order-1">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
-                yOffset={8}
-                text={`Hi, I'm Salman alshammari ${DATA.name}`}
-              />
+              {/* 👈 هنا قمنا بالاستبدال المضمون لعرض اسمك الكامل بدون قص */}
+              <BlurFade delay={BLUR_FADE_DELAY}>
+                <h1 className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl">
+                  Hi, I'm Salman Alshammari
+                </h1>
+              </BlurFade>
+              {/* 👈 تركنا بقية المكونات تعمل بشكل طبيعي لتفادي الأخطاء */}
               <BlurFadeText
                 className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
                 delay={BLUR_FADE_DELAY}
