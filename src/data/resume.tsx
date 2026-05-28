@@ -71,7 +71,7 @@ export const DATA = {
       title: "Financial Analyst | Operations & Financial Management",
       logoUrl: "/me.png",
       start: "Feb 2026",
-      end: "Present",
+      end: "May 2026",
       description:
         "Leading comprehensive financial operations and strategic planning. Developing robust financial policies and internal control frameworks to mitigate corporate risks. Managing the annual budgeting process and delivering advanced variance analysis to support executive-level decisions. Optimizing corporate liquidity and cash flow forecasting.",
     },
@@ -93,7 +93,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "/me.png",
+      logoUrl: "/uoh.png",
       start: "Jan 2020",
       end: "Apr 2026",
     },
