@@ -29,11 +29,6 @@ export const DATA = {
     email: "SalmanAlshammari@outlook.sa",
     tel: "+966545002806",
     social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://github.com/salmanalshammari111-lab",
-        icon: Icons.github,
-        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
