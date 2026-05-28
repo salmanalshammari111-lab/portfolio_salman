@@ -75,7 +75,7 @@ export const DATA = {
       badges: ["Operations & Finance"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "/alomran.png",
+      logoUrl: "/alomran.jpg",
       start: "Feb 2026",
       end: "May 2026",
       description:
