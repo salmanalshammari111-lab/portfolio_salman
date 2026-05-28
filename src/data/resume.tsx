@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 
 export const DATA = {
-  name: "Salman\u00A0Alshammari", // 👈 تم تعديل الاسم هنا ليظهر بالشكل الذي طلبته
+  name: "Salman\Alshammari", // 👈 تم تعديل الاسم هنا ليظهر بالشكل الذي طلبته
   initials: "SA",
   url: "https://salman-finance.vercel.app",
   location: "Riyadh, Saudi Arabia",
