@@ -93,7 +93,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "/uoh.jpg",
+      logoUrl: "/uhb.jpg",
       start: "Jan 2020",
       end: "Apr 2026",
     },
