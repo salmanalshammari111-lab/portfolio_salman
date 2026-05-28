@@ -69,7 +69,7 @@ export const DATA = {
       badges: ["Current"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "/me.png",
+      logoUrl: "/alomran.png",
       start: "Feb 2026",
       end: "May 2026",
       description:
