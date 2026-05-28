@@ -1,9 +1,9 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 
 export const DATA = {
-  name: "Salman Atwan Alshammari",
+  name: "Salman Alshammari", // 👈 تم تعديل الاسم هنا ليظهر بالشكل الذي طلبته
   initials: "SA",
   url: "https://salman-finance.vercel.app",
   location: "Riyadh, Saudi Arabia",
@@ -31,9 +31,9 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "#",
+        url: "https://github.com/salmanalshammari111-lab",
         icon: Icons.github,
-        navbar: false,
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
@@ -57,14 +57,13 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:SalmanAlshammari@outlook.sa",
         icon: Icons.email,
-      navbar: true,
+        navbar: true,
       },
-        Phone: {
+      Phone: {
         name: "Call Me",
         url: "tel:+966545002806",
         icon: PhoneIcon,
         navbar: true,
-      },
       },
     },
   },
@@ -73,10 +72,10 @@ export const DATA = {
     {
       company: "Al Omran Solutions for Building Materials",
       href: "#",
-      badges: ["Current"],
+      badges: ["Operations & Finance"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "/alomran.jpg",
+      logoUrl: "/alomran.png",
       start: "Feb 2026",
       end: "May 2026",
       description:
@@ -88,7 +87,7 @@ export const DATA = {
       badges: ["Pre-Graduation"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Retail Sales Associate - Financial Operations",
-      logoUrl: "/me.png",
+      logoUrl: "/alomran.png",
       start: "Jul 2022",
       end: "Dec 2023",
       description:
@@ -100,7 +99,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "/uhb.jpg",
+      logoUrl: "/Uoh.png",
       start: "Jan 2020",
       end: "Apr 2026",
     },
@@ -135,7 +134,7 @@ export const DATA = {
       links: [
         {
           type: "Dashboard",
-          href: "#",
+          href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=cDuZuh",
           icon: <Icons.globe className="size-3" />,
         }
       ],
