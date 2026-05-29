@@ -120,17 +120,25 @@ export const DATA = {
     },
     {
       title: "Multi-Branch Sales Dashboard",
-      href: "#",
+          {
+      title: "Salman Alshammari Corporate Finance Dashboard",
+      href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=tCftX0",
       dates: "2025",
       active: true,
       description:
-        "Developed a Power BI dashboard using Power Query and DAX for real-time tracking across 10+ branches. Identified underperforming units through variance analysis, resulting in an 18% uplift in sales performance.",
-      technologies: ["Power BI", "DAX", "Variance Analysis"],
+        "Engineered an advanced Corporate Finance Dashboard utilizing integrated Excel data models and professional analytical practices. Designed dynamic formulas to track multi-scenario business performance and optimize reporting workflows.",
+      technologies: ["Excel", "Financial Analytics", "Data Modeling"],
       links: [
         {
           type: "Dashboard",
-          href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=cDuZuh",
+          href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=tCftX0",
           icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video: "",
+    },
+
         }
       ],
       image: "",
