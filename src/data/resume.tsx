@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 
 export const DATA = {
-  name: "salmanAlshammari", // 👈 تم تعديل الاسم هنا ليظهر بالشكل الذي طلبته
+  name: "Salman Alshammari",
   initials: "SA",
   url: "https://salman-finance.vercel.app",
   location: "Riyadh, Saudi Arabia",
@@ -29,6 +29,11 @@ export const DATA = {
     email: "SalmanAlshammari@outlook.sa",
     tel: "+966545002806",
     social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/salmanalshammari111-lab",
+        icon: Icons.github,
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
@@ -70,7 +75,7 @@ export const DATA = {
       badges: ["Operations & Finance"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "/alomran.jpg",
+      logoUrl: "/alomran.png",
       start: "Feb 2026",
       end: "May 2026",
       description:
@@ -82,9 +87,9 @@ export const DATA = {
       badges: ["Pre-Graduation"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Retail Sales Associate - Financial Operations",
-      logoUrl: "/alomran.jpg",
+      logoUrl: "/alomran.png",
       start: "Jul 2022",
-      end: "Feb 2026",
+      end: "Dec 2023",
       description:
         "Streamlined high-volume POS operations for 200+ daily transactions, ensuring 100% reconciliation accuracy. Optimized inventory management for 500+ SKUs using Onyx ERP, achieving a 30% reduction in stock discrepancies. Synchronized month-end closing processes.",
     },
@@ -94,7 +99,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "/uhb.jpg",
+      logoUrl: "/Uoh.png",
       start: "Jan 2020",
       end: "Apr 2026",
     },
@@ -108,19 +113,11 @@ export const DATA = {
       description:
         "Conducted quantitative research on ESG practices for 50+ Saudi companies using GRI/SASB frameworks and regression models. Built financial models to measure ROI of sustainability investments and developed a Power BI dashboard.",
       technologies: ["Power BI", "Financial Modeling", "Regression Analysis"],
-      links: [
-        {
-          type: "Dashboard",
-          href: "#",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
+      links: [],
       image: "",
       video: "",
     },
     {
-      title: "Multi-Branch Sales Dashboard",
-          {
       title: "Salman Alshammari Corporate Finance Dashboard",
       href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=tCftX0",
       dates: "2025",
@@ -128,19 +125,7 @@ export const DATA = {
       description:
         "Engineered an advanced Corporate Finance Dashboard utilizing integrated Excel data models and professional analytical practices. Designed dynamic formulas to track multi-scenario business performance and optimize reporting workflows.",
       technologies: ["Excel", "Financial Analytics", "Data Modeling"],
-      links: [
-        {
-          type: "Dashboard",
-          href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=tCftX0",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "",
-      video: "",
-    },
-
-        }
-      ],
+      links: [],
       image: "",
       video: "",
     },
@@ -153,13 +138,7 @@ export const DATA = {
       description:
         "Designed an Excel-based system for Sales, Capital, and Operating budgets capable of processing multi-scenario analyses, reducing reporting time by 60%.",
       image: "",
-      links: [
-        {
-          title: "System",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "#",
-        }
-      ],
+      links: [],
     },
   ],
 } as const;
