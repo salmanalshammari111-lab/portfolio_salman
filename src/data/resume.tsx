@@ -125,13 +125,7 @@ export const DATA = {
       description:
         "Developed a comprehensive Uber Operations & Financial Dashboard utilizing Power BI. Modeled operational data and key metrics to analyze ride performance, trip efficiency, and business analytics workflows.",
       technologies: ["Power BI", "Data Analytics", "Data Modeling"],
-      links: [
-        {
-          type: "Dashboard",
-          href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
       video: "",
     },
