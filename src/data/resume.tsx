@@ -114,7 +114,14 @@ export const DATA = {
       description:
         "Conducted quantitative research on ESG practices for 50+ Saudi companies using GRI/SASB frameworks and regression models. Built financial models to measure ROI of sustainability investments and developed a Power BI dashboard.",
       technologies: ["Power BI", "Financial Modeling", "Regression Analysis"],
-      links: [],
+      links: [
+        {
+          type: "Details",
+          title: "Details",
+          href: "#",
+          icon: <NotebookIcon className="size-3" />,
+        }
+      ],
       image: "",
       video: "",
     },
@@ -129,6 +136,7 @@ export const DATA = {
       links: [
         {
           type: "Live Dashboard",
+          title: "Live Dashboard",
           href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
           icon: <NotebookIcon className="size-3" />,
         },
@@ -145,7 +153,14 @@ export const DATA = {
       description:
         "Designed an Excel-based system for Sales, Capital, and Operating budgets capable of processing multi-scenario analyses, reducing reporting time by 60%.",
       image: "",
-      links: [],
+      links: [
+        {
+          type: "Details",
+          title: "Details",
+          href: "#",
+          icon: <NotebookIcon className="size-3" />,
+        }
+      ],
     },
   ],
 } as const;
