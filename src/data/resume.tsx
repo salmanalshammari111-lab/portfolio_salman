@@ -1,6 +1,7 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, PhoneIcon, Globe } from "lucide-react";
+import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
+import React from "react";
 
 export const DATA = {
   name: "Salman Alshammari",
@@ -127,9 +128,9 @@ export const DATA = {
       technologies: ["Power BI", "Data Analytics", "Data Modeling"],
       links: [
         {
-          type: "Dashboard",
+          type: "Live Dashboard",
           href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
-          icon: <Globe className="size-3" />,
+          icon: <NotebookIcon className="size-3" />,
         },
       ],
       image: "",
@@ -147,4 +148,4 @@ export const DATA = {
       links: [],
     },
   ],
-};
+} as const;
