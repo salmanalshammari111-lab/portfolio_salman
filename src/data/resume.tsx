@@ -118,13 +118,13 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Salman Alshammari Corporate Finance Dashboard",
+      title: "Uber Dashboard",
       href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
       dates: "2025",
       active: true,
       description:
-        "Engineered an advanced Corporate Finance Dashboard utilizing integrated Excel data models and professional analytical practices. Designed dynamic formulas to track multi-scenario business performance and optimize reporting workflows.",
-      technologies: ["Power BI", "Financial Analytics", "Data Modeling"],
+        "Developed a comprehensive Uber Operations & Financial Dashboard utilizing Power BI. Modeled operational data and key metrics to analyze ride performance, trip efficiency, and business analytics workflows.",
+      technologies: ["Power BI", "Data Analytics", "Data Modeling"],
       links: [
         {
           type: "Dashboard",
