@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, PhoneIcon, Globe } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 
 export const DATA = {
@@ -86,7 +86,7 @@ export const DATA = {
       href: "#",
       badges: ["Pre-Graduation"],
       location: "Hafar Al-Batin, Saudi Arabia",
-      title: "Retail Sales Associate - Financial Operations",
+      title: "Retail Sales Associate",
       logoUrl: "/alomran.png",
       start: "Jul 2022",
       end: "Dec 2023",
@@ -125,7 +125,13 @@ export const DATA = {
       description:
         "Developed a comprehensive Uber Operations & Financial Dashboard utilizing Power BI. Modeled operational data and key metrics to analyze ride performance, trip efficiency, and business analytics workflows.",
       technologies: ["Power BI", "Data Analytics", "Data Modeling"],
-      links: [],
+      links: [
+        {
+          type: "Dashboard",
+          href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
+          icon: <Globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     },
@@ -141,4 +147,4 @@ export const DATA = {
       links: [],
     },
   ],
-} as const;
+};
