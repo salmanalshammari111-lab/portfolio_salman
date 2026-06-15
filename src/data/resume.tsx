@@ -76,7 +76,7 @@ export const DATA = {
       badges: ["Operations & Finance"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Financial Analyst | Operations & Financial Management",
-      logoUrl: "/alomran.png",
+      logoUrl: "/alomran.jpg",
       start: "Feb 2026",
       end: "May 2026",
       description:
@@ -88,7 +88,7 @@ export const DATA = {
       badges: ["Pre-Graduation"],
       location: "Hafar Al-Batin, Saudi Arabia",
       title: "Retail Sales Associate",
-      logoUrl: "/alomran.png",
+      logoUrl: "/alomran.jpg",
       start: "Jul 2022",
       end: "Dec 2023",
       description:
@@ -100,7 +100,7 @@ export const DATA = {
       school: "University of Hafar Al-Batin",
       href: "#",
       degree: "Bachelor of Science in Finance",
-      logoUrl: "/Uoh.png",
+      logoUrl: "/uhb.jpg",
       start: "Jan 2020",
       end: "Apr 2026",
     },
