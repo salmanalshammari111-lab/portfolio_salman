@@ -6,7 +6,7 @@ export const DATA = {
   name: "Salman Alshammari",
   initials: "SA",
   url: "https://salman-finance.vercel.app",
-  location: "Riyadh, Saudi Arabia",
+  location: "Hafar Al-Batin, Saudi Arabia",
   locationLink: "https://www.google.com/maps/place/Riyadh",
   description:
     "Financial Analyst | FP&A & Strategic Planning. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
@@ -119,13 +119,19 @@ export const DATA = {
     },
     {
       title: "Salman Alshammari Corporate Finance Dashboard",
-      href: "https://uhbksa-my.sharepoint.com/:x:/g/personal/s2210001717_uhb_edu_sa/IQCT2QqjHiSCRp2af8ECsTevASKmeNwI1kEJnVwsJKzCA4o?e=tCftX0",
+      href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
       dates: "2025",
       active: true,
       description:
         "Engineered an advanced Corporate Finance Dashboard utilizing integrated Excel data models and professional analytical practices. Designed dynamic formulas to track multi-scenario business performance and optimize reporting workflows.",
-      technologies: ["Excel", "Financial Analytics", "Data Modeling"],
-      links: [],
+      technologies: ["Power BI", "Financial Analytics", "Data Modeling"],
+      links: [
+        {
+          type: "Dashboard",
+          href: "https://app.powerbi.com/groups/me/reports/9222d81d-46c1-43a1-9380-5ef1221aa35c/bd0cd484887a249a8728?experience=power-bi",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
       image: "",
       video: "",
     },
