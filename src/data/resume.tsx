@@ -141,7 +141,7 @@ export const DATA = {
           icon: <NotebookIcon className="size-3" />,
         },
       ],
-      image: "/uber.jpg",
+      image: "https://raw.githubusercontent.com/salmanalshammari111-lab/portfolio_salman/main/public/uber.jpg",
       video: "",
     },
   ],
