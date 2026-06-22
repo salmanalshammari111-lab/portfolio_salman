@@ -10,7 +10,7 @@ export const DATA = {
   location: "Hafar Al-Batin, Saudi Arabia",
   locationLink: "https://www.google.com/maps/place/Riyadh",
   description:
-    "Financial Analyst | FP&A & Strategic Planning. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
+    "Financial Analyst | Operations & Financial Management. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions.",
   summary:
     "Strategic Finance Professional with progressive experience in Financial Planning & Analysis (FP&A) and corporate leadership. Expert in leveraging Power BI, SQL, and ERP integration to bridge the gap between complex data and strategic financial decisions. Proven track record of engineering financial models and managing multimillion-dollar operating budgets to drive growth and optimize capital allocation aligned with Saudi Vision 2030.",
   avatarUrl: "/me.png",
@@ -25,7 +25,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/Cv-Salman Atwan.pdf", icon: FileText, label: "Download CV" }, // 👈 تم تحديث اسم ملف السيرة الذاتية ليتطابق مع ملفك بالملي
+    { href: "/Cv-Salman Atwan.pdf", icon: FileText, label: "Download CV" },
   ],
   contact: {
     email: "SalmanAlshammari@outlook.sa",
@@ -142,7 +142,7 @@ export const DATA = {
           icon: <NotebookIcon className="size-3" />,
         },
       ],
-      image: "/uber.jpg", 
+      image: "/uber.gif", // 👈 تم التحديث هنا ليعرض ملف الـ GIF المتحرك والجميل
       video: "",
     },
   ],
