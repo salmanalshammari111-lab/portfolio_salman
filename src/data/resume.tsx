@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
+import { HomeIcon, NotebookIcon, PhoneIcon, FileText } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import React from "react";
 
@@ -25,6 +25,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/Cv-Salman Atwan.pdf", icon: FileText, label: "Download CV" }, // 👈 تم تحديث اسم ملف السيرة الذاتية ليتطابق مع ملفك بالملي
   ],
   contact: {
     email: "SalmanAlshammari@outlook.sa",
@@ -118,7 +119,7 @@ export const DATA = {
         {
           type: "Details",
           title: "Details",
-          href: "#",
+          href: "https://salman-finance.vercel.app",
           icon: <NotebookIcon className="size-3" />,
         }
       ],
@@ -141,7 +142,7 @@ export const DATA = {
           icon: <NotebookIcon className="size-3" />,
         },
       ],
-      image: "https://raw.githubusercontent.com/salmanalshammari111-lab/portfolio_salman/main/public/uber.jpg",
+      image: "/uber.jpg", 
       video: "",
     },
   ],
@@ -157,7 +158,7 @@ export const DATA = {
         {
           type: "Details",
           title: "Details",
-          href: "#",
+          href: "https://salman-finance.vercel.app",
           icon: <NotebookIcon className="size-3" />,
         }
       ],
