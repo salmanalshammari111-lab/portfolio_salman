@@ -1,7 +1,26 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon, PhoneIcon, FileText } from "lucide-react";
+import { HomeIcon, NotebookIcon, PhoneIcon } from "lucide-react";
 import { Postgresql } from "@/components/ui/svgs/postgresql";
 import React from "react";
+
+// 👈 هنا صنعنا الأيقونة المخصصة اللي ترسم حروف CV بداخلها بوضوح
+const CvIcon = (props: any) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <rect width="18" height="18" x="3" y="3" rx="2" />
+    <text x="12" y="16" textAnchor="middle" fontSize="10" fontWeight="bold" fill="currentColor" stroke="none" fontFamily="Arial, sans-serif">
+      CV
+    </text>
+  </svg>
+);
 
 export const DATA = {
   name: "Salman Alshammari",
@@ -25,7 +44,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/Cv-Salman Atwan.pdf", icon: FileText, label: "Download CV" },
+    { href: "/Cv-Salman Atwan.pdf", icon: CvIcon, label: "CV" }, // 👈 استخدمنا الأيقونة المخصصة هنا
   ],
   contact: {
     email: "SalmanAlshammari@outlook.sa",
