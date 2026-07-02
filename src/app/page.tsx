@@ -5,7 +5,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import ContactSection from "@/components/section/contact-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
@@ -142,9 +141,7 @@ export default function Page() {
       </section>
       <section id="contact">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
-          <ContactSection />
-        </BlurFade>
-      </section>
-    </main>
-  );
-}
+          <div className="flex flex-col items-center justify-center gap-4 px-4 text-center md:px-6 w-full pb-12">
+            <div className="space-y-3">
+              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium">
+Normally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
