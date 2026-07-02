@@ -139,9 +139,13 @@ export default function Page() {
           <HackathonsSection />
         </BlurFade>
       </section>
+      
+      {/* 👈 هنا قسم التواصل الجديد اللي شلنا منه تويتر وحطينا خاتمة رسمية */}
       <section id="contact">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
-          <div className="flex flex-col items-center justify-center gap-4 px-4 text-center md:px-6 w-full pb-12">
+          <div className="flex flex-col items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm font-medium">
-Normally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
+                Contact
+              </div>
+              <h2 className="text-3Normally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
