@@ -54,7 +54,7 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/salmanalshammari111-lab",
         icon: Icons.github,
-        navbar: true,
+        navbar: false,
       },
       LinkedIn: {
         name: "LinkedIn",
